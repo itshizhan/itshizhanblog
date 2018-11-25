@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { withRouter } from 'react-router-dom';
 
 function mapStateToProps(state) {
   return {
@@ -7,16 +8,16 @@ function mapStateToProps(state) {
   };
 }
 
-class Login extends Component {
+class MainRight extends Component {
   render() {
     return (
-      <div>
-        
+      <div className="main-right">
+        MainRight
       </div>
     );
   }
 }
 
-export default connect(
+export default withRouter(connect(
   mapStateToProps,
-)(Login);
+)(MainRight));

@@ -1,0 +1,129 @@
+.header-nav{
+  height: 60px;
+  background: #1B1C1D;  
+  color: rgba(255,255,255,.9);
+  width: 100%;
+  line-height: 60px;
+
+  .header-nav-main{
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    
+    h2.site-title{
+      color: #00B5AD;
+      display: inline-block;
+    }
+  }
+
+  .nav-menu-ul{
+    list-style: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 30px;
+    vertical-align: top;
+    li{
+      display: inline-block;
+      height:36px;
+      line-height: 36px;
+      margin-right: 10px;
+      a{
+        display: inline-block;
+        height:36px;
+        line-height: 36px;
+        padding: 0 16px;
+        text-decoration: none;
+        color: rgba(255,255,255,.7);
+        &:hover{
+          background: rgba(255,255,255,.08);
+          color: #fff;
+          text-decoration: none;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+      }
+     
+    }
+    
+  }
+  .nav-menu-ul.user{
+    float: right;
+  }
+
+
+
+
+
+
+}
+
+.layouts-main{
+  width: 1000px;
+  margin: 0 auto;
+  min-height: 500px;
+  padding: 42px 0;
+}
+.main-left{
+  display: inline-block;
+  vertical-align: top;
+  width: 710px;
+  background: #fbf8f8;
+  
+
+}
+
+.main-right{
+  display: inline-block;
+  vertical-align: top;
+  width: 280px;
+  background: gainsboro;
+  
+}
+
+.footer-wrap{
+  background: #1B1C1D;
+  color: rgba(255,255,255,.9);  
+  .footer-content{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .copyright{
+    height: 40px;
+    line-height: 40px;
+    border-top: 1px solid rgba(255,255,255,.1);
+  }
+  .wechat-qrcode,.contact-us,.site-description{
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin-top: 15px;
+    height: 110px;
+    a{
+      text-decoration: none;
+      color: rgba(255,255,255,.7);
+    }
+    p{
+      font-size: 14px;
+    }
+  }
+  .wechat-qrcode{
+    width: 120px;
+   
+    text-align: left;
+  }
+  .contact-us{
+    width: 360px;
+    border-left: 1px solid rgba(255,255,255,.1);
+    padding-left: 16px;
+    margin-left: 12px;
+   
+  }
+  .site-description{
+    width: 460px;
+    border-left: 1px solid rgba(255,255,255,.1);
+    padding-left: 16px;
+    margin-left: 12px;
+
+  }
+}
